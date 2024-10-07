@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+bevy = "0.14.2"
+bevy_egui = "0.28"
+egui = "0.28"
+egui-snarl = "0.4.4"
+mlua = { version = "0.9.9", features = ["lua51", "vendored"] }
+serde = { version = "1.0.210", features = ["derive"] }
